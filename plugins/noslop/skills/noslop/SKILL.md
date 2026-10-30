@@ -26,17 +26,17 @@ If it all fits in a 5-line message, say so, and write the message instead.
 
 ## 2. Pick the form from the job
 
-The job decides the form. Never use one look for everything. Only a memo to decide is a document (a doc). Everything else is a designed page (HTML), built in the shape of its job.
+The job decides the form. Never use one look for everything. Only a memo to decide is a document (a Claude Doc is fine). Everything else is an HTML artifact, never a Claude Doc or a plain document, designed in the shape of its job.
 
 | The reader needs to… | Build | It looks like |
 |---|---|---|
 | Decide (memo, brief, proposal to a boss) | A document | The point and the ask on top. Options side by side in a table. One recommendation and why. |
-| Catch up (weekly or monthly update) | A report page | The 3 or 4 numbers that matter as big tiles, each with its change since last time. One chart. Then what happened, then what you need. |
-| Keep checking (tracker, dashboard) | A dashboard page | Summary first. Each section in its own card. Numbers with up or down, status pills, one chart per question. |
-| Learn or follow steps (guide, onboarding, how-to) | A step-by-step page | One step per screen, numbered, with a visual for each. Back and Next buttons instead of scrolling. |
-| Say yes (pitch, landing page, offer) | A pitch page | A designed page, not a document. One big message, proof as big numbers, visuals over text, one button. |
-| Use it (calculator, checklist, planner) | A tool | Fits one screen. Works on sample data from the first second. |
-| Keep it (cheat sheet, reference) | A one-page sheet | Packed, scannable, grouped in blocks, made to save. Fits one screen or one printed page. |
+| Catch up (weekly or monthly update) | An HTML report | The 3 or 4 numbers that matter as big tiles, each with its change since last time. One chart. Then what happened, then what you need. |
+| Keep checking (tracker, dashboard) | An HTML dashboard | Summary first. Each section in its own card. Numbers with up or down, status pills, one chart per question. |
+| Learn or follow steps (guide, onboarding, how-to) | An HTML step-by-step | One step per screen, numbered, with a visual for each. Back and Next buttons instead of scrolling. |
+| Say yes (pitch, landing page, offer) | An HTML pitch page | A designed page, not a document. One big message, proof as big numbers, visuals over text, one button. |
+| Use it (calculator, checklist, planner) | An HTML tool | Fits one screen. Works on sample data from the first second. |
+| Keep it (cheat sheet, reference) | An HTML one-page sheet | Packed, scannable, grouped in blocks, made to save. Fits one screen or one printed page. |
 
 When a job mixes two, lead with the main one.
 
