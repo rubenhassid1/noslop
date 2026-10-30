@@ -72,11 +72,13 @@ If any answer is no, fix it first.
 
 **Humans:** you don't need to read this. Paste one line in Claude.
 
-To make an artifact:
+To make one, add your notes or files to the chat, then:
 
 ```
-Make an artifact about [YOUR TOPIC] for [WHO WILL READ IT]. Follow github.com/rubenhassid1/noslop
+Make an HTML page about [YOUR TOPIC] for [WHO WILL READ IT]. Follow github.com/rubenhassid1/noslop
 ```
+
+Say "HTML page", or Claude may turn it into a plain doc. For a memo your boss will comment on, say "a doc" instead.
 
 To fix one, add the page to the chat, then:
 
