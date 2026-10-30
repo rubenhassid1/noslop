@@ -14,7 +14,7 @@ If the request doesn't answer both, ask them as clickable questions. Ask nothing
 ## 2. The rules
 
 1. **Say what it is, first.** The top of the page says, in one or two lines, what this is, why they got it and what to do with it. A stranger gets it in 5 seconds.
-2. **Write half as much.** Say each thing once: if the top line says it, the page doesn't repeat it. Then cut again. One idea per line. If a sentence can go and nothing is lost, it goes.
+2. **Write half as much.** Say each thing once. What the top line says gets no section of its own below. Then cut again. One idea per line. If a sentence can go and nothing is lost, it goes.
 3. **Plain words.** Short sentences. Words a 12-year-old knows. No jargon. If a term must stay, explain it once, in a few words.
 4. **No extra labels.** No taglines, no subtitle under each heading, no helper text, no secondary labels, no "tip" boxes. If a screen needs them to make sense, fix the layout.
 5. **One way to read it.** One column, top to bottom. Number what the reader must do in order. No grid of tiles, cards or boxes, unless they compare things of the same kind.
