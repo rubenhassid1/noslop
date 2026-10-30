@@ -47,7 +47,7 @@ When a job mixes two, lead with the main one.
 1. **Show it, don't write it. This is rule number one.** Visuals carry the message. Words only label them. Every section starts with a visual: a big number, a bar or line chart, a timeline, a path of steps, cards side by side, a drawn screen, an icon. If a section is only sentences, turn it into a visual. Test: hide every paragraph. The page should still make sense.
 2. **The top says what you're looking at.** The first thing on the page is a header line: what this is, who it's from, who it's for, the date, and what you need from them. Example: `Monthly update · October 2026 · From Sam to Dana · 3 decisions before Monday`. Under it, a title that says the point. At most one line under the title, and only to say what to do.
 3. **Normal sentences.** Write every title, heading and label the way you'd say it to a colleague: "4 candidates have no interview date yet", not "Waiting with no date". No clever, punchy or poetic phrases. No subtitle under each heading.
-4. **Simple is not empty.** Use simple words, but keep every detail the reader needs to act: amounts, limits, dates, names, who approves, exceptions, examples, links. A guide lets someone do the whole thing without asking anyone. A policy or a process shows its owner, its start date and who to ask.
+4. **Simple is not empty.** Use simple words, but keep every detail the reader needs to act: amounts, limits, dates, names, who approves, exceptions, examples, links. A guide lets someone do the whole thing without asking anyone. A policy or a process shows its owner, its start date and who to ask. Every number that changed says what it's compared to: "+$1,043 vs September", never "+$1,043".
 5. **No walls of text.** 2 lines per paragraph at most. 10 words per table cell at most. More than 6 rows of sentences? Split them into cards by topic. Bold the word that matters in each line.
 6. **Look like Claude.** People already know Claude's look, so a new one makes them work. Use the style kit below: Claude's colors, its 2 fonts, its cards and its buttons. Claude's clay is the only accent, for the main button and the one thing to look at. Green, red and amber only mean good, bad and watch.
 7. **One place to start.** The biggest thing on the screen is the most important thing. The eye knows where to go first, second, third. Never one long scroll: past 2 screens, use tabs, steps or slides.
@@ -62,13 +62,21 @@ Never ship a page with these:
 - A subtitle or helper text under every heading.
 - Stripped bare: no amounts, rules, exceptions or examples, so it doesn't look important.
 - Walls of text: long paragraphs, tables full of sentences, a dozen rows that look the same.
+- A change with nothing to compare it to: "+12%" instead of "+12% vs September".
+- A row of identical cards, each with its own little chart. Use one main chart, with plain numbers around it.
 - A look that isn't Claude's: blue buttons, new fonts, many text sizes, gradients, emoji as icons.
 - One long scroll that tries to hold everything.
 - Badges, pills or numbers (01, 02, 03) that carry no information.
 
 ## 5. Fixing an artifact
 
-You got a page: a link, a file, code or a screenshot. First check the form fits the job. If it doesn't, rebuild it in the right form. Turn text into visuals, add the header line, rewrite headings as normal sentences, and apply the style kit. Keep every fact, number and name. Add nothing new. When you're done, say in one line what you changed.
+You got a page: a link, a file, code or a screenshot. First list the slop signs you find, one line each. Then decide how much to change:
+
+- **Lots of slop, or the wrong form for the job:** rebuild it in the right form, following this whole page.
+- **A few signs on a page that mostly works:** fix only those, and keep its layout.
+- **No slop:** say so. Suggest at most 3 small changes, and change nothing unless they say yes.
+
+Keep every fact, number and name. Add nothing new. When you're done, say in one line what you changed.
 
 ## 6. Check before you show it
 
@@ -78,6 +86,7 @@ Read it as the person from step 1, with zero context:
 - Does the top say what this is, who it's from, and what they need to do?
 - Read every heading out loud. Is it a normal sentence?
 - Is every detail there that they need to act without asking anyone?
+- Does every change say what it's compared to?
 - Does it look like Claude?
 - Could they forward it to their own boss without explaining anything?
 
