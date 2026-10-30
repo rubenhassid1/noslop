@@ -2,6 +2,8 @@
 
 Claude: you were sent here to make an artifact, or to fix one. Follow this page. You need nothing else from this repo.
 
+**Format, before anything else:** only a memo to decide can be a Claude Doc. An update, a report, a dashboard, a guide, a pitch, a tool or a cheat sheet is always an HTML artifact, even when it feels like a document.
+
 ## 1. Know the reader and the job
 
 Before you build, you need three answers:
