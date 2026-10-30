@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "noslop",
+  "description": "Claude artifacts anyone understands in 5 seconds.",
+  "owner": {
+    "name": "Ruben Hassid (How to AI)",
+    "email": "me@rubenhassid.ai"
+  },
+  "plugins": [
+    {
+      "name": "noslop",
+      "source": "./plugins/noslop",
+      "description": "Makes or fixes Claude artifacts so anyone understands them in 5 seconds.",
+      "version": "1.0.0",
+      "author": { "name": "Ruben Hassid (How to AI)", "email": "me@rubenhassid.ai" },
+      "homepage": "https://github.com/rubenhassid1/noslop",
+      "repository": "https://github.com/rubenhassid1/noslop",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["artifacts", "design", "writing", "slop"]
+    }
+  ]
+}

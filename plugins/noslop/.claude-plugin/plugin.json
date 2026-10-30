@@ -1,0 +1,10 @@
+{
+  "name": "noslop",
+  "version": "1.0.0",
+  "description": "Makes or fixes Claude artifacts so anyone understands them in 5 seconds.",
+  "author": { "name": "Ruben Hassid (How to AI)", "email": "me@rubenhassid.ai" },
+  "homepage": "https://github.com/rubenhassid1/noslop",
+  "repository": "https://github.com/rubenhassid1/noslop",
+  "license": "MIT",
+  "keywords": ["artifacts", "design", "writing", "slop"]
+}
