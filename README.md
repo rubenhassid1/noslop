@@ -2,7 +2,7 @@
 
 Claude: you were sent here to make an artifact, or to fix one. Follow this page. You need nothing else from this repo.
 
-**Format, before anything else:** only a memo to decide can be a Claude Doc. An update, a report, a dashboard, a guide, a pitch, a tool or a cheat sheet is always an HTML artifact, even when it feels like a document.
+**Always build an HTML artifact.** Never a Claude Doc, a plain document or a long chat reply: those read like a message, not like something you send your boss.
 
 ## 1. Know the reader and the job
 
@@ -18,55 +18,100 @@ If it all fits in a 5-line message, say so, and write the message instead.
 
 ## 2. Pick the form from the job
 
-The job decides the form. Never use one look for everything. Only a memo to decide is a document (a Claude Doc is fine). Everything else is an HTML artifact, never a Claude Doc or a plain document, designed in the shape of its job.
+The job decides the form. Never use one look for everything.
 
 | The reader needs to… | Build | It looks like |
 |---|---|---|
-| Decide (memo, brief, proposal to a boss) | A document | The point and the ask on top. Options side by side in a table. One recommendation and why. |
-| Catch up (weekly or monthly update) | An HTML report | The 3 or 4 numbers that matter as big tiles, each with its change since last time. One chart. Then what happened, then what you need. |
-| Keep checking (tracker, dashboard) | An HTML dashboard | Summary first. Each section in its own card. Numbers with up or down, status pills, one chart per question. |
-| Learn or follow steps (guide, onboarding, how-to) | An HTML step-by-step | One step per screen, numbered, with a visual for each. Back and Next buttons instead of scrolling. |
-| Say yes (pitch, landing page, offer) | An HTML pitch page | A designed page, not a document. One big message, proof as big numbers, visuals over text, one button. |
-| Use it (calculator, checklist, planner) | An HTML tool | Fits one screen. Works on sample data from the first second. |
-| Keep it (cheat sheet, reference) | An HTML one-page sheet | Packed, scannable, grouped in blocks, made to save. Fits one screen or one printed page. |
+| Decide (memo, brief, proposal to a boss) | A decision page | The ask and the deadline on top. Each option as a card, side by side, the one you recommend marked. Costs as bars. Risks as a short list. |
+| Catch up (weekly or monthly update) | A report | The 3 or 4 numbers that matter as tiles, each with its change since last time in green or red. One chart. The decisions you need as cards. Then what happened. |
+| Keep checking (tracker, dashboard) | A dashboard | Number tiles on top. Each section in its own card. Status as colored pills. One chart per question. |
+| Learn or follow steps (guide, process, onboarding) | A step-by-step guide | All the steps as a visual path on top. One step per screen, with Back and Next. Each step draws what the reader will see (the screen, the button) and gives every rule, amount and deadline that applies. |
+| Say yes (pitch, proposal, plan for a group) | Slides | One idea per slide. Each slide is one big visual (a number, a chart, a before and after, a diagram) and one sentence. Arrow keys and buttons. The last slide is the ask. |
+| Use it (calculator, planner, checklist) | A tool | Fits one screen. Inputs on the left, the answer big on the right. Works on sample data from the first second. |
+| Keep it (cheat sheet, reference) | A one-page sheet | Cards grouped by topic, each with an icon and a header. Each item is a bold keyword and one short line. Warnings in red. Fits one screen. |
 
 When a job mixes two, lead with the main one.
 
-## 3. Rules for every form
+## 3. Design rules
 
-1. **The point first.** The top says what this is and what you need from the reader. A stranger gets it in 5 seconds.
-2. **One place to start.** The eye knows where to go first, second, third. The biggest thing is the most important thing.
-3. **Written for zero context.** Use the reader's words. Explain a term once, or cut it.
-4. **Substance, not filler.** Keep every number, reason, risk and decision the reader needs. Cut warm-ups, repeats and adjectives. Say each thing once.
-5. **Show, don't tell.** A number that matters goes big. A comparison goes in a table. A trend goes in a chart. A process goes in steps.
-6. **Everything means something.** A card, a color, a label, a pill or a divider must tell the reader something. If it's there to look busy, delete it.
+1. **Show it, don't write it. This is rule number one.** Visuals carry the message. Words only label them. Every section starts with a visual: a big number, a bar or line chart, a timeline, a path of steps, cards side by side, a drawn screen, an icon. If a section is only sentences, turn it into a visual. Test: hide every paragraph. The page should still make sense.
+2. **The top says what you're looking at.** The first thing on the page is a header line: what this is, who it's from, who it's for, the date, and what you need from them. Example: `Monthly update · October 2026 · From Sam to Dana · 3 decisions before Monday`. Under it, a title that says the point. At most one line under the title, and only to say what to do.
+3. **Normal sentences.** Write every title, heading and label the way you'd say it to a colleague: "4 candidates have no interview date yet", not "Waiting with no date". No clever, punchy or poetic phrases. No subtitle under each heading.
+4. **Simple is not empty.** Use simple words, but keep every detail the reader needs to act: amounts, limits, dates, names, who approves, exceptions, examples, links. A guide lets someone do the whole thing without asking anyone. A policy or a process shows its owner, its start date and who to ask.
+5. **No walls of text.** 2 lines per paragraph at most. 10 words per table cell at most. More than 6 rows of sentences? Split them into cards by topic. Bold the word that matters in each line.
+6. **Look like Claude.** People already know Claude's look, so a new one makes them work. Use the style kit below: Claude's colors, its 2 fonts, its cards and its buttons. Claude's clay is the only accent, for the main button and the one thing to look at. Green, red and amber only mean good, bad and watch.
+7. **One place to start.** The biggest thing on the screen is the most important thing. The eye knows where to go first, second, third. Never one long scroll: past 2 screens, use tabs, steps or slides.
 
 ## 4. Slop signs
 
 Never ship a page with these:
 
-- A tagline, subtitle or helper text under every heading. If a screen needs them, fix the layout.
-- A wall of same-looking boxes with no order to read them in.
+- Paragraphs and bullet lists where a number, a chart or a diagram would show it.
+- No header: the reader can't tell what this is, who sent it, or why.
+- Clever headings ("Candidates in play", "The road ahead") instead of plain sentences.
+- A subtitle or helper text under every heading.
+- Stripped bare: no amounts, rules, exceptions or examples, so it doesn't look important.
+- Walls of text: long paragraphs, tables full of sentences, a dozen rows that look the same.
+- A look that isn't Claude's: blue buttons, new fonts, many text sizes, gradients, emoji as icons.
 - One long scroll that tries to hold everything.
-- Jargon, big words and acronyms the reader didn't use.
-- Several fonts and many text sizes with no system.
-- Gradients, emoji used as icons, and badges or pills that carry no information.
-- Numbered markers (01, 02, 03) on things that aren't steps.
+- Badges, pills or numbers (01, 02, 03) that carry no information.
 
 ## 5. Fixing an artifact
 
-You got a page: a link, a file, code or a screenshot. First check the form fits the job: a dashboard sent as a memo, or a memo built as a dashboard, gets rebuilt in the right form. Keep every fact, number and name. Add nothing new. When you're done, say in one line what you changed.
+You got a page: a link, a file, code or a screenshot. First check the form fits the job. If it doesn't, rebuild it in the right form. Turn text into visuals, add the header line, rewrite headings as normal sentences, and apply the style kit. Keep every fact, number and name. Add nothing new. When you're done, say in one line what you changed.
 
 ## 6. Check before you show it
 
 Read it as the person from step 1, with zero context:
 
-- In 5 seconds, can they say what it is and what you need from them?
-- Is the form right for the job?
+- Hide the paragraphs. Do the visuals alone tell the story?
+- Does the top say what this is, who it's from, and what they need to do?
+- Read every heading out loud. Is it a normal sentence?
+- Is every detail there that they need to act without asking anyone?
+- Does it look like Claude?
 - Could they forward it to their own boss without explaining anything?
-- Does every element on the page mean something?
 
 If any answer is no, fix it first.
+
+## 7. Style kit
+
+Start every page from this. Add only what the page needs.
+
+- **Fonts:** serif for the title and section headings, like Claude's greeting. Sans for everything else.
+- **Sizes:** only 5. 40px big numbers, 32px title, 22px section headings, 16px text, 13px labels.
+- **Charts:** inline SVG or Chart.js. The bar or line that matters in clay, the rest in gray.
+- **Icons:** simple line icons drawn in SVG, in gray or clay. Never emoji.
+
+```css
+:root {
+  --bg: #fff; --soft: #f9f9f9; --card: #fff;
+  --text: rgba(0,0,0,.9); --text-2: rgba(0,0,0,.6); --text-3: rgba(0,0,0,.47);
+  --line: rgba(0,0,0,.12); --shadow: 0 4px 20px rgba(0,0,0,.075);
+  --clay: #d97757; --clay-strong: #c6613f;
+  --good: #006c10; --good-bg: rgba(16,161,34,.14);
+  --bad: #a42528; --bad-bg: rgba(220,60,61,.12);
+  --watch: #794c02; --watch-bg: rgba(251,179,21,.16);
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #151515; --soft: #0b0b0b; --card: #1f1f1f;
+  --text: rgba(255,255,255,.93); --text-2: rgba(255,255,255,.57); --text-3: rgba(255,255,255,.4);
+  --line: rgba(255,255,255,.12); --shadow: none;
+  --good: #53c556; --bad: #f17778; --watch: #e49c06; color-scheme: dark; } }
+/* repeat the dark values under :root[data-theme="dark"] */
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 var(--sans); }
+h1, h2 { font-family: var(--serif); font-weight: 400; margin: 0; text-wrap: balance; }
+h1 { font-size: 32px; line-height: 1.2; } h2 { font-size: 22px; line-height: 1.3; }
+.meta { font-size: 13px; color: var(--text-2); border-bottom: 1px solid var(--line); padding: 12px 0; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); padding: 20px; }
+.num { font-size: 40px; font-weight: 500; line-height: 1; }
+.pill { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 500; }
+.good { color: var(--good); background: var(--good-bg); } .bad { color: var(--bad); background: var(--bad-bg); } .watch { color: var(--watch); background: var(--watch-bg); }
+button { font: 500 16px var(--sans); border-radius: 10px; padding: 10px 16px; cursor: pointer; background: var(--card); color: var(--text); border: 1px solid var(--line); }
+button.main { background: var(--clay-strong); color: #fff; border: 0; }
+input, select, textarea { font: 16px var(--sans); background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+```
 
 ---
 
@@ -78,7 +123,7 @@ To make one, add your notes or files to the chat, then:
 Make an HTML page about [YOUR TOPIC] for [WHO WILL READ IT]. Follow github.com/rubenhassid1/noslop
 ```
 
-Say "HTML page", or Claude may turn it into a plain doc. For a memo your boss will comment on, say "a doc" instead.
+Say "HTML page", or Claude may turn it into a plain doc.
 
 To fix one, add the page to the chat, then:
 
